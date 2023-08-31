@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>
+        이달의 소녀
+    </title>
+    <link rel="stylesheet" href="estilos/estilos-fan.css"> <!-- link a estilos-->
+</head>
+
+<body>
+    <header>
+        <nav class="nav-gen"> <!-- barra de navegacion-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="LOONA.html">LOOΠΔ</a></li>
+                <li><a href="Disc.html">Discografia</a></li>
+                <li><a href="#">Galeria</a>
+                    <ul>
+                        <li><a href="galeriasolos.html">Solos</a></li>
+                        <li><a href="galeriaunidades.html">Unidades</a></li>
+                        <li><a href="galeriagrupo.html">Grupo</a></li>
+                    </ul>
+                </li>
+                <li><a href="Fans.html">Fanclub</a></li>
+              </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="contenedor-formu">
+            <img src="estilos/imagenes/Orbit.jpg">
+            <form>
+                <h1>Enter the möbius </h1><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                  <option value="">Seleccione su país</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Brasil">Brasil</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Costa Rica">Costa Rica</option>
+                  <option value="Cuba">Cuba</option>
+                  <option value="Ecuador">Ecuador</option>
+                  <option value="El Salvador">El Salvador</option>
+                  <option value="Guatemala">Guatemala</option>
+                  <option value="Honduras">Honduras</option>
+                  <option value="México">México</option>
+                  <option value="Nicaragua">Nicaragua</option>
+                  <option value="Panamá">Panamá</option>
+                  <option value="Paraguay">Paraguay</option>
+                  <option value="Perú">Perú</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="República Dominicana">República Dominicana</option>
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Venezuela">Venezuela</option>
+                </select>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" maxlength="100"></textarea>
+                
+                <label for="suscripcion">Suscribirme a Orbit 2.0</label>
+                <input type="checkbox" id="suscripcion" name="suscripcion" value="si">
+                
+                <input type="submit" value="Enviar">
+              </form>
+
+        </div>
+          
+    </main>
+    
+</body>
+
+
+</html>
+
